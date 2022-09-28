@@ -1012,7 +1012,7 @@
       "description": "Tippspiel setup as a compose file",
       "categories": ["webserver"],
       "platform": "linux",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/unoxi/templates/master/tippspiel.png",
       "repository": {
         "url": "https://github.com/unoxi/templates",
         "stackfile": "stacks/tippspiel/docker-compose.yml"
