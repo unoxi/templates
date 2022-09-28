@@ -1007,6 +1007,32 @@
       ]
     },
     {
+      "type": 3,
+      "title": "Tippspiel",
+      "description": "Tippspiel setup as a compose file",
+      "categories": ["webserver"],
+      "platform": "linux",
+      "logo": "",
+      "repository": {
+        "url": "https://github.com/unoxi/templates",
+        "stackfile": "stacks/tippspiel/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "TRAEFIK_NAME",
+          "label": "Traefik Name",
+          "description": "Name of the service inside traefik",
+          "default": "tippspiel-example"
+        },
+        {
+          "name": "DOMAIN",
+          "label": "Domain",
+          "description": "Domain the service will be running on",
+          "default": "example.domain.com"
+        }
+      ]
+    },
+    {
       "type": 2,
       "title": "LiveSwitch",
       "description": "A basic LiveSwitch stack with gateway, caching, database and media server",
