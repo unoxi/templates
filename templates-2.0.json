@@ -1056,15 +1056,18 @@
         },
         {
           "name": "SMTP_USERNAME",
-          "label": "SMTP Username"
+          "label": "SMTP Username",
+          "default": "empty"
         },
         {
           "name": "SMTP_PASSWORD",
-          "label": "SMTP Password"
+          "label": "SMTP Password",
+          "default": "empty"
         },
         {
           "name": "SMTP_HOST",
-          "label": "SMTP Host"
+          "label": "SMTP Host",
+          "default": "empty"
         },
         {
           "name": "SMTP_PORT",
