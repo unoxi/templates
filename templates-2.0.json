@@ -1029,6 +1029,53 @@
           "label": "Domain",
           "description": "Domain the service will be running on",
           "default": "example.domain.com"
+        },
+        {
+          "name": "SITE_NAME",
+          "label": "Site name",
+          "description": "Site name displayed everywhere",
+          "default": "Testwetten"
+        },
+        {
+          "name": "LOGO_URL",
+          "label": "Logo URL",
+          "description": "Logo of your site displayed for ex. in the navbar",
+          "default": "https://example.com/logo.png"
+        },
+        {
+          "name": "FAVICON_URL",
+          "label": "Favicon URL",
+          "description": "Favicon used for the site icon",
+          "default": "https://example.com/favicon.ico"
+        },
+        {
+          "name": "SENDER_MAIL",
+          "label": "Sender mail",
+          "description": "Displayed as the mail sent from",
+          "default": "example@domain.com"
+        },
+        {
+          "name": "SMTP_USERNAME",
+          "label": "SMTP Username"
+        },
+        {
+          "name": "SMTP_PASSWORD",
+          "label": "SMTP Password"
+        },
+        {
+          "name": "SMTP_HOST",
+          "label": "SMTP Host"
+        },
+        {
+          "name": "SMTP_PORT",
+          "label": "SMTP Port",
+          "default": "465"
+        },
+        {
+          "name": "SMTP_PROTOCOL",
+          "label": "SMTP Protocol",
+          "description": "Choose between ssl and tls",
+          "default": "ssl"
         }
       ]
     },

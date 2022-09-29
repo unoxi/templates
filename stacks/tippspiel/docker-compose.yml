@@ -13,6 +13,18 @@ services:
     networks:
       - internal
       - proxy
+    environment:
+      SITE_NAME: ${SITE_NAME}
+      LOGO_URL: ${LOGO_URL}
+      FAVICON_URL: ${FAVICON_URL}
+      DOMAIN: ${DOMAIN}
+      # MAIL INFO FOR PW RESET MAILS
+      SENDER_MAIL: ${SENDER_MAIL}
+      SMTP_USERNAME: ${SMTP_USERNAME}
+      SMTP_PASSWORD: ${SMTP_PASSWORD}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_PROTOCOL: ${SMTP_PROTOCOL}
 
   mariadb:
     image: "mariadb:10.9.1-rc"
